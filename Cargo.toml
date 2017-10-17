@@ -1,0 +1,15 @@
+[package]
+
+name = "wol"
+version = "0.0.1"
+authors = ["Dave Lancaster <lancaster.dave@gmail.com>"]
+
+[[bin]]
+
+name = "wol"
+path = "src/main.rs"
+
+[dependencies]
+
+getopts = "*"
+regex = "*"
